@@ -8,6 +8,7 @@ def main():
     result_subtract = subtract(a, b)
     result_multiply = multiply(a, b)
     result_divide = divide(a, b)
+    print("Result of addition (from branch B):", format_result(add(a, b)))
 
     print(format_result(result_add))
     print(format_result(result_subtract))
