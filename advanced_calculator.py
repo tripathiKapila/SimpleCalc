@@ -9,7 +9,7 @@ def advanced_calculator():
     print("2. Square Root")
     choice = input("Choose an option (1 or 2): ")
 
-    if choice == '1':
+    if choice == '2ss':
         base = float(input("Enter base: "))
         exponent = float(input("Enter exponent: "))
         print("Result:", math.pow(base, exponent))
